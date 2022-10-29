@@ -1,0 +1,74 @@
+sort1 uses: Bubble sort
+
+How do you know?: bubble sort dont swap for sorted data, so it is faster than selection sort
+
+sort2 uses: Merge sort
+
+How do you know?: sort2 is fastest against random500000.txt in sort1,sort2,sort3
+
+sort3 uses: Selection sort
+
+How do you know?: selection sort is about same time in every pettern
+
+
+
+sorted_5000
+sorted10_000
+sorted50_000
+
+sort1
+real    0m0.054s
+real    0m0.310s
+real    0m0.630s
+
+sort2
+real    0m0.042s
+real    0m0.069s
+real    0m0.756s
+
+sort3
+real    0m0.053s
+real    0m0.192s
+real    0m3.398s
+
+//////////////////////////////////
+
+reverse5_000
+reverse10_000
+reverse50_000
+
+sort1
+real    0m0.087s
+real    0m0.294s
+real    0m5.936s
+
+sort2
+real    0m0.026s
+real    0m0.152s
+real    0m0.500s
+
+sort3
+real    0m0.089s
+real    0m0.193s
+real    0m3.424s
+
+///////////////////////////////////////
+
+random5_000
+random10_000
+random50_000
+
+sort1
+real    0m0.075s
+real    0m0.458s
+real    0m7.833s
+
+sort2
+real    0m0.052s
+real    0m0.098s
+real    0m0.690s
+
+sort3
+real    0m0.059s
+real    0m0.179s
+real    0m3.435s
